@@ -8,9 +8,12 @@ import io.realm.annotations.PrimaryKey;
  */
 public class RealmCharacter extends RealmObject {
 
+    //XXX Real need?
     @PrimaryKey
     private int id;
+
     private String careers;
+
     private String attributes;
 
     public int getId() {

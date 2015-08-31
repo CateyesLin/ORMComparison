@@ -18,10 +18,7 @@ public class Character {
     @DatabaseField(canBeNull = false)
     private String attributes;
 
-    public Character() {
-        careers = "";
-        attributes = "";
-    }
+    public Character() {}
 
     public String getCareers() {
         return careers;
